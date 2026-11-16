@@ -106,7 +106,7 @@ pnpm start
 You can also link the CLI command locally:
 
 ```bash
-pnpm link --global
+pnpm add -g .
 boxy-ai
 ```
 
@@ -115,6 +115,7 @@ boxy-ai
 ## ⚠️ Security & Safety Warning
 
 This AI agent possesses capabilities to read, modify, and delete files on your local file system.
+
 - Always run the agent inside safe, dedicated working directories.
 - Ensure sensitive directories and system files are protected.
 - Review agent actions and tool calls before confirming destructive commands.
