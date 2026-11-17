@@ -175,6 +175,9 @@ importers:
 
   .:
     dependencies:
+      '@langchain/core':
+        specifier: ^1.4.1
+        version: 1.4.1
       '@langchain/groq':
         specifier: ^1.3.1
         version: 1.3.1(@langchain/core@1.4.1)
