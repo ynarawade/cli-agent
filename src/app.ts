@@ -1,3 +1,4 @@
+import intiGraph from "./graph/graph.js";
 import {
   getApiKey,
   getSettingsContent,
@@ -19,8 +20,7 @@ async function app() {
     await saveApiKey(apiKey);
     return app();
   }
-  const savedApiKey = res!.apiKey;
-  console.log("Api Key ", savedApiKey);
+  await intiGraph();
   rl.close();
 }
 
