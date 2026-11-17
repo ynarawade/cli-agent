@@ -1,4 +1,4 @@
-import intiGraph from "./graph/graph.js";
+import intiGraph from "./ai/graph/graph.js";
 import {
   getApiKey,
   getSettingsContent,
